@@ -1,0 +1,7 @@
+let random, objeto=new Array();
+for (let i=0;i<10;i++){
+random=String.fromCharCode(65+Math.floor(Math.random()*25))+String.fromCharCode(65+Math.floor(Math.random()*25))+String.fromCharCode(65+Math.floor(Math.random()*25))+String.fromCharCode(65+Math.floor(Math.random()*25))+String.fromCharCode(65+Math.floor(Math.random()*25))+String.fromCharCode(65+Math.floor(Math.random()*25));
+  objeto.push(random);
+  objeto.sort();
+}
+console.log(objeto); 

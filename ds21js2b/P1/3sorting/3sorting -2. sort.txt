@@ -1,0 +1,13 @@
+<script>
+function num_ale(min , max){
+ return Math.floor(Math. random()*(max - min)) + min; 
+}
+  
+let num=[];
+
+  for(let i=0; i<=10; i++){
+ num.push(num_ale(1,100)); 
+   num.sort((num, b) => b - num); 
+  }
+  document.write(num);
+</script>

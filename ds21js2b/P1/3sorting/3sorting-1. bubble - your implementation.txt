@@ -1,0 +1,9 @@
+<script>
+let random, nemeros=new Array();
+for (let i=0;i<10;i++){
+random=(65+Math.floor(Math.random()*25));
+  numeros.push(random);
+  numeros.sort();
+}
+console.log(numeros);   
+</script>
