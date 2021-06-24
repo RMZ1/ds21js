@@ -1,0 +1,22 @@
+//problema 3
+class  Add{
+constructor(){
+this.array=[1,2,3,4];
+this.array2=[];
+this.array3=[]; 	  
+ };	
+remove() {
+let x=3;
+for(let i=0;i<this.array.length;i++){
+if(i==x){
+this.array3.push(this.array[i]);
+}else{
+this.array2.push(this.array[i]);
+}
+}
+return this.array2;
+};
+};
+const add= new Add();
+console.log(add);
+console.log(add.remove());
