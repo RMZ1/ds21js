@@ -1,0 +1,4 @@
+//problema1
+let numbers = [ 3, 2, 1];
+numbers.splice(0,0,4);
+console.log(numbers);

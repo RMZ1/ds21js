@@ -1,0 +1,6 @@
+// problema pila
+
+let num = ["uno","dos","tres"];
+let dos=num.pop(num);
+console.log( dos );
+console.log(num);

@@ -1,0 +1,10 @@
+//problema de convesion de bases
+let decimal =186;
+let octal = decimal.toString(8);
+let hexadecimal = decimal.toString(16);
+let binario = decimal.toString(2);
+  
+console.log(decimal);
+console.log(octal);
+console.log(hexadecimal);
+console.log(binario);

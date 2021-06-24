@@ -1,0 +1,6 @@
+//1 problema
+let num = ["cuatro","uno","cinco"];
+num.push("dos");
+console.log(num);
+num.push("tres");
+console.log(num);

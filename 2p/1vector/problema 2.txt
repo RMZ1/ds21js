@@ -1,0 +1,6 @@
+// 2 problema
+let num = [1,2,3,4,5];
+let lis = num.indexOf(3); 
+num.splice(lis, 1);
+console.log( num );
+  
